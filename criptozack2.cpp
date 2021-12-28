@@ -1,5 +1,4 @@
 #include<iostream>
-#include<conio.h>
 #include<stdio.h>
 using namespace std;
 int main();
@@ -28,7 +27,7 @@ void boss()
         cout<<"     |~CRIPTO_ZACK |"<<endl;
         d.setdata();
         cout<<"your data is saved"<<endl;
-        clrscr();
+        System ("cls");
         boss();
     }
     if(a2=="showdata")
@@ -40,17 +39,17 @@ void boss()
     }
     if(a2=="clear")
     {
-     clrscr();
+     System ("cls");
      boss();
     }
     if(a2=="back")
     {
-    clrscr();
+    System ("cls");
     main();
     }
 
     else {
-        clrscr();
+        System ("cls");
         main();
     }
 
